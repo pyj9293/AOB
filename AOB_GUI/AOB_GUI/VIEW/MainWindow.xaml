@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AOB_GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="JY AUTOMOTIVE DRIVE PLAYER" Height="450" Width="800">
     <Grid>
         <Viewbox HorizontalAlignment="Left" Height="197" Margin="150,91,0,0" VerticalAlignment="Top" Width="490"/>
         <Button></Button>
