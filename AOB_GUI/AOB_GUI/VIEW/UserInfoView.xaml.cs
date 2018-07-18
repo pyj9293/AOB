@@ -13,18 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AOB_GUI
+namespace AOB_GUI.VIEW
 {
     /// <summary>
-    /// MainWindow.xaml에 대한 상호 작용 논리
+    /// UserInfoView.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class UserInfoView : Page
     {
-        public MainWindow()
+        public UserInfoView()
         {
             InitializeComponent();
 
-            new VIEWMODEL.UserInfoViewModel();
+            this.DataContext = new VIEWMODEL.UserInfoViewModel();
         }
     }
 }

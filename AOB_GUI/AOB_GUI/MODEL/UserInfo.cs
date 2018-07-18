@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace AOB_GUI.VIEWMODEL
-{ 
+namespace AOB_GUI.MODEL
+{
     public class UserInfo
     {
         public string vehicleType { get; set; }
-        public string chassisNumber { get; set; }
-        public string vehycleNumber { get; set; }
+        public string chassisNumber { get; set; } 
+        public string vehicleNumber { get; set; }
         public string customerNumber { get; set; }
         public string fileName { get; set; }
     }
