@@ -19,11 +19,11 @@ namespace AOB_GUI.MODEL
         public ObservableCollection<UserInfo> GetUserInfo()
         {
             userInfo = new UserInfo();
-            userInfo.vehicleType = ReadSetting("info", "VEHICLE_TYPE");
-            userInfo.chassisNumber = ReadSetting("info", "CHASSIS_NUMBER");
-            userInfo.vehicleNumber = ReadSetting("info", "VEHICLE_NUMBER");
-            userInfo.customerNumber = ReadSetting("info", "CUSTOMER_REGISTRATION_NUMBER");
-            userInfo.fileName = ReadSetting("info", "FILE_NAME");
+            userInfo.vehicleType = "차종 : " + ReadSetting("info", "VEHICLE_TYPE");
+            userInfo.chassisNumber = "차대번호 : " + ReadSetting("info", "CHASSIS_NUMBER");
+            userInfo.vehicleNumber = "차량번호 : " + ReadSetting("info", "VEHICLE_NUMBER");
+            userInfo.customerNumber = "고객등록번호 : " + ReadSetting("info", "CUSTOMER_REGISTRATION_NUMBER");
+            userInfo.fileName = "파일이름 : " + ReadSetting("info", "FILE_NAME");
 
             return new ObservableCollection<UserInfo> { userInfo };
         }

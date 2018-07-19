@@ -12,6 +12,7 @@ namespace AOB_GUI.VIEWMODEL
     public class UserInfoViewModel : INotifyPropertyChanged
     {
         private UserInfoService service;
+
         private ObservableCollection<UserInfo> userInfoList;
 
         public ObservableCollection<UserInfo> UserInfoList
@@ -30,9 +31,8 @@ namespace AOB_GUI.VIEWMODEL
         public UserInfoViewModel()
         {
             service = new UserInfoService();
-
         }
-
+        
         #region INotifyPropertyChanged Members
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string propertyName)

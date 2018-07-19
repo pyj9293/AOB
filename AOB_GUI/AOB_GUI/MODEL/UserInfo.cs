@@ -13,5 +13,11 @@ namespace AOB_GUI.MODEL
         public string vehicleNumber { get; set; }
         public string customerNumber { get; set; }
         public string fileName { get; set; }
+
+        public string getAllUserInfo()
+        {
+            return this.vehicleType + "      " + this.chassisNumber + "      " + this.vehicleNumber
+                + "      " + this.customerNumber + "      " + this.fileName;
+        }
     }
 }
