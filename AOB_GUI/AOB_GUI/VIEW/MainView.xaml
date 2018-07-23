@@ -16,7 +16,7 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_파일(F)">
                 <MenuItem Header="_새로 만들기(N)"/>
-                <MenuItem Command="{Binding ShowUserInfo}" Header="_열기(O)"/>
+                <MenuItem Command="{Binding OpenFileDialogCmd}" Header="_열기(O)"/>
                 <Separator/>
                 <MenuItem Header="_끝내기(x)"/>
             </MenuItem>

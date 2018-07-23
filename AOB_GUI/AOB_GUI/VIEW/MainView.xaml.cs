@@ -24,7 +24,8 @@ namespace AOB_GUI
         {
             InitializeComponent();
 
-            this.DataContext = new VIEWMODEL.UserInfoViewModel();
+            //this.DataContext = new VIEWMODEL.UserInfoViewModel();
+            this.DataContext = new VIEWMODEL.MainViewModel();
         }
     }
 }
