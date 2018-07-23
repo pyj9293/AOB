@@ -62,9 +62,13 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="HELPER\CollectionConverter.cs" />
+    <Compile Include="MODEL\File.cs" />
+    <Compile Include="MODEL\FileService.cs" />
     <Compile Include="MODEL\UserInfo.cs" />
     <Compile Include="MODEL\UserInfoService.cs" />
     <Compile Include="VIEWMODEL\DelegateCommand.cs" />
+    <Compile Include="VIEWMODEL\FileDialogViewModel.cs" />
+    <Compile Include="VIEWMODEL\MainViewModel.cs" />
     <Compile Include="VIEWMODEL\UserInfoViewModel.cs" />
     <Page Include="VIEW\MainView.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -76,6 +80,7 @@
     </Compile>
     <Compile Include="DATA\VAR.cs" />
     <Compile Include="DATA\INI.cs" />
+    <Compile Include="VIEWMODEL\ViewModelBase.cs" />
     <Compile Include="VIEW\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
       <SubType>Code</SubType>
